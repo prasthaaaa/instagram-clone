@@ -1,69 +1,113 @@
-*{
+* {
     padding: 0;
-    margin:0;
 }
-.main-container{
-    display:flex;
+
+.main-container {
+    display: flex;
     justify-content: center;
 }
-.image-container img{
+
+.image-container img {
     height: 581.15px;
+    width: 400px;
 }
-.right-container{
+
+.right-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.first-one{
-    border: 2px solid grey;
-    height: 350px;
-    width: 407;
-    padding: 20px 10px;
+
+.first-one {
+    border: 1px solid rgb(177, 177, 177);
+    height: 400px;
+    width: 330px;
+ margin-top: 20px;
+    
 }
-.first-one h1{
+
+.first-one h1 {
     text-align: center;
-    margin: 0 0 20px 0;
+    margin-top: 50px;
+
 }
-.input-field{
+
+.input-field {
     text-align: center;
     padding: 9px;
-    width: 80% ;
+    width: 80%;
     background-color: #fafafa;
     margin: 10px;
-    border: 2px solid grey;
+    border: 1.5px solid #dbdbdb;
+     margin-left: 20px;
 }
 
-.login-button{
+.login-button {
     color: white;
-    background-color: rgb(101, 101, 189);
-    padding: 10px 0;
-    width: 80% ;
+    background-color: #0095f6;
+    padding: 10px;
+    width: 85%;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     align-items: center;
-    margin: 0 0 10px 10px;
+    margin: 15px;
+    margin-left: 25px;
+
 }
 
-.or-text{
+.or-text {
     text-align: center;
     color: grey;
+   
 
 }
-.login-forgot-div{
+
+.login-forgot-div {
     text-align: center;
+    
 
 }
 
 
-.fb-login{
+.fb-login {
     text-decoration: none;
     color: #385185;
 }
-.forgot-password{
+
+.forgot-password {
     text-decoration: none;
     color: #003768;
 
 }
-.get-app > img{
+
+.sign-up{
+    border: 1px solid rgb(177, 177, 177);
+    margin-top: 10px;
+    padding-top: 5px;
+   
+    height: 50px;
+    text-align: center;
+}
+.get-app{
+    margin-top: 15px;
+    text-align: center;
+}
+.get-app>img {
+    margin-top: 15px;
     height: 2em;
+    width: 7em;
+  
+}
+.footer{
+    padding-top: 140px;
+    text-align: center;
+    margin: auto;
+
+}
+.meta{
+    word-spacing: 10px;
+}
+.language{
+    display: inline-flex;
+
 }
